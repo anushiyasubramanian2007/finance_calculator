@@ -11,8 +11,7 @@ function calculateFinance() {
     let investment = Number(
         document.getElementById("investment").value
     );
-
-
+    //check income  
     if (income <= 0) {
 
         alert("Please enter a valid monthly income.");
